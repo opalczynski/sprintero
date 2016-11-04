@@ -6,8 +6,8 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
     name='sprintero',
-    version='0.1',
-    description='Syncano command line utilities',
+    version='0.1.1',
+    description='Sprint name generator',
     long_description=README,
     author='Sebastian Opalczynski',
     author_email='opalczynski@gmail.com',
