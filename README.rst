@@ -10,11 +10,13 @@ Usage
 =====
 
 ::
+
     sprintero generate
 
 Will generate a marvel character name which is considered good.
 
 ::
+
     sprintero generate --badass
 
 Will generate a marvel character name which is considered bad.
