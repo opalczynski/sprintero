@@ -2,9 +2,6 @@
 
 import click
 
-import sys
-sys.path.append('/home/sopalczy/projects/sprintero-core')
-
 from sprintero.commands import top_level
 
 cli = click.CommandCollection(
@@ -13,7 +10,4 @@ cli = click.CommandCollection(
 
 
 def main():
-    cli(obj={})
-
-if __name__ == '__main__':
     cli(obj={})

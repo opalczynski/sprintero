@@ -6,7 +6,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
     name='sprintero',
-    version='0.1.1',
+    version='0.1.2',
     description='Sprint name generator',
     long_description=README,
     author='Sebastian Opalczynski',
